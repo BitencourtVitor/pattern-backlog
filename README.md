@@ -1,5 +1,9 @@
 # pattern-backlog
 
-Esqueleto do padrao de backlog: um indice por dia (acklog/AAAA-MM-DD.md) e um arquivo por item (acklog/AAAA-MM-DD/<ID>.md).
+Esqueleto do padrão de backlog: um índice por dia (`backlog/AAAA-MM-DD.md`) e um arquivo por item (`backlog/AAAA-MM-DD/<ID>.md`).
 
-Como usar: copie acklog/ para a raiz do projeto, troque AAAA-MM-DD pela data real, e adicione `backlog/` ao .gitignore do projeto (a regra esta comentada no .gitignore deste repo).
+## Como usar
+
+1. Copie a pasta `backlog/` para a raiz do projeto.
+2. Troque `AAAA-MM-DD` pela data real e `XX-1` pelo ID do item.
+3. Adicione `backlog/` ao `.gitignore` do projeto (a regra está comentada no `.gitignore` deste repositório).
